@@ -1,0 +1,46 @@
+.carousel {
+
+    .slide {
+
+        img {
+            display: block; 
+            width: 100%;
+            height: 400px;
+        }
+
+    }
+
+}
+
+$small: 300px;
+$medium: 900px;
+$little: 315px;
+
+.container {
+
+    margin-top: 50px;
+    align-items: center;
+
+    .row {
+        margin: auto;
+        margin-left: 20px;
+
+    }
+
+    @media screen and (max-width: $small) {
+        
+        .row {
+            margin: auto;
+        }
+        
+      }
+      @media screen and (min-width: $medium) {
+       
+        .row {
+            margin: auto;
+        }
+        
+      }
+
+}
+

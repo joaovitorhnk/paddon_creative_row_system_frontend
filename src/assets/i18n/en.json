@@ -1,0 +1,12 @@
+{
+    "WELCOME": "Welcome",
+    "SYSTEM_ROW_PADDON_CREATIVE": "Paddon Creative Queuing System",
+    "PT": "PT",
+    "EN": "EN",
+    "HOME": "Home",
+    "TEXT": {
+        "FOOTER": {
+            "DESCRIPTION": "Website developed to track goods that are in production at the company."
+        }
+    }
+}

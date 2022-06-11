@@ -1,10 +1,25 @@
-import { Component } from '@angular/core';
+// Ngx Translate 
+import {TranslateService} from "@ngx-translate/core";
+
+// Native Angular imports
+import { Component, ViewEncapsulation } from '@angular/core';
+
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'row_sys_front';
+  
+
+  constructor(private translate: TranslateService) {
+    translate.setDefaultLang('pt');
+    translate.use('pt');
+  }
+
+  translateLanguage(language: string): void {
+    this.translate.use(language)
+  }
+  
 }
